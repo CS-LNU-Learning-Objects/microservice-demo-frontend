@@ -1,6 +1,11 @@
+import { Logger } from './Logger.js'
+
 const loginURL = 'http://localhost:5000/authenticate'
+let logger = new Logger()
+logger.write('Init the logger...')
 
 let login = async (url, email, password) => {
+  logger.write('user try to login....')
   let result
   try {
     result = await window.fetch(url, {
