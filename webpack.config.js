@@ -10,8 +10,8 @@ module.exports = {
   },
   devServer: {
     contentBase: path.join(__dirname, 'src'),
-    port: 4000,
-    public: 'localhost:4000',
+    port: 8000,
+    public: 'localhost:8000',
     watchContentBase: true
   },
   devtool: 'cheap-eval-source-map',
