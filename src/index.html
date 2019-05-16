@@ -7,19 +7,35 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script type="module" src="js/app.js"></script>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
     </head>
     <body>
         <h1>MS tester!</h1>
         <p>This is a simple tester for a micro service architecture</p>
-
+        
+          
+        </div>
         <div id="login_form">
           <input type="email" name="email" id="login_email">
           <input type="password" name="password" id="login_password">
-          <button id="login_button">Log in</button>
+          <button class="pure-button" id="login_button">Log in</button>
         </div>
         <hr>
-        <h3>Logger:</h3>
-        <textarea name="logger" id="textarea_logger" cols="70" rows="50"></textarea>
+
+        <div class="pure-g">
+          <div class="pure-u-1-2">
+              <h3>Logger:</h3>
+              <textarea name="logger" id="textarea_logger" cols="60" rows="40"></textarea>
+              <button class="pure-button" id="clear_button">Clear</button>
+          </div>
+          <div class="pure-u-1-2">
+            <button class="pure-button pure-button-primary">Validate JWT</button>
+            <button class="pure-button pure-button-primary">Try service 1</button>
+            <button class="pure-button pure-button-primary">Try service 2</button>
+            <button class="pure-button pure-button-primary">Try service 3</button>
+          </div>
+      </div>
+        
         <script nomodule src="build.js"></script>
     </body>
 </html>
