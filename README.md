@@ -1,9 +1,7 @@
-## Examination assignment 2
-This is the assignment repo for the second assignment in the course. 
+# Microservice demo - Frontend
+This is a SPA for the docker/kubernetes-assignment in the course 1dv032 at Linnaeus university. The application is just a simple test-application for the assignment: https://coursepress.lnu.se/kurs/systemadministrationii/examination/
 
-## Installation
-Make sure node.js and npm is installed on your system.
+This service is written in HTML + JavaScript
 
-1. `npm install`
-2. `npm start`
-3. Browse to [http://localhost:4000](http://localhost:4000)
+The app logic code is in src/js/app.js - Feel free to change it after your preferences :)
+
